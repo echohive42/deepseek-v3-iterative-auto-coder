@@ -2,6 +2,21 @@
 
 This project implements an AI-powered code generation system using the DeepSeek v3 model through OpenRouter's API. It consists of two implementations: a single-iteration version and an iterative version with code improvement capabilities.
 
+## ⚠️ IMPORTANT SECURITY WARNING
+
+**This project executes AI-generated code on your machine. This can be potentially dangerous!**
+
+- AI-generated code could contain harmful operations
+- Review generated code before execution if possible
+- Use in an isolated environment (virtual machine) for maximum safety
+- Be especially careful with prompts involving:
+  - File operations
+  - Network access
+  - System commands
+  - Package installations
+
+**Use at your own risk. The authors are not responsible for any damage caused by AI-generated code.**
+
 ## 🤖 Model Flexibility
 
 While this project defaults to using **DeepSeek v3** through OpenRouter, it's designed to work with **any model available on OpenRouter**! You can easily switch models by changing the `MODEL` constant in either script:
