@@ -7,13 +7,8 @@ This project implements an AI-powered code generation system using the DeepSeek 
 **This project executes AI-generated code on your machine. This can be potentially dangerous!**
 
 - AI-generated code could contain harmful operations
-- Review generated code before execution if possible
-- Use in an isolated environment (virtual machine) for maximum safety
-- Be especially careful with prompts involving:
-  - File operations
-  - Network access
-  - System commands
-  - Package installations
+- You can consider adding a code review step before code execution
+- Use in an isolated environment (virtual machine) for maximum safety possibly
 
 **Use at your own risk. The authors are not responsible for any damage caused by AI-generated code.**
 
